@@ -7,7 +7,7 @@ import pandas as pd
 import json
 import faiss
 import numpy as np
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 # from utils.nlp_processing import Translation
 from utils.translate_vi2en import translate_vi2en
 from pathlib import Path
